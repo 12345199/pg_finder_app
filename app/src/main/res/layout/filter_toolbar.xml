@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="0.8"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp">
+
+
+        <Button
+            android:id="@+id/filter_apply_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_done_white_24dp"
+            android:text="Done"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+</androidx.appcompat.widget.Toolbar>

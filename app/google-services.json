@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "204266076150",
+    "project_id": "pgfinder-90d67",
+    "storage_bucket": "pgfinder-90d67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204266076150:android:8e527afb04dab4d762f9d7",
+        "android_client_info": {
+          "package_name": "com.paruluni.findpg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204266076150-62i9svpca8sscgf7j0jjncntrs0rpq4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paruluni.findpg",
+            "certificate_hash": "1fd878a4390beeec4880ff27cfc2fedeffba4460"
+          }
+        },
+        {
+          "client_id": "204266076150-ka0q2gnom3r5hjl5j8g33ijlomtvqgm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArnHEgvdhduW1pQheij-G0mz5-DoIMci0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204266076150-ka0q2gnom3r5hjl5j8g33ijlomtvqgm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PGFinder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">262455499243498</string>
+    <string name="fb_login_protocol_scheme">fb262455499243498</string>
+
+    <string name="web_client_id">735934131337-bt8ihtutia1dreti99etrhlcd11pj6ce.apps.googleusercontent.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+
+    <string-array name="locality">
+        <item>Ajwa Road</item>
+        <item>Akota</item>
+        <item>Alkapuri</item>
+        <item>Ayurvedik</item>
+        <item>Chhani</item>
+        <item>Karelibaug</item>
+        <item>Kala-Darshan</item>
+        <item>MajalPur</item>
+        <item>Makarpura</item>
+        <item>New VIP Road</item>
+        <item>New Sama</item>
+        <item>Nizampura</item>
+    </string-array>
+
+    <string-array name="institutes">
+        <item>Parul University</item>
+        <item>Sumandeep</item>
+        <item>Sigma</item>
+        <item>MS University</item>
+        <item>ITM Vocational</item>
+        <item>GSFC University</item>
+        <item>KM Shah Dental College</item>
+        <item>Navrachana University</item>
+        <item>Babariya Institute</item>
+        <item>VIT</item>
+        <item>KJ Institute</item>
+        <item>Neo-Tech</item>
+        <item>SP Institute and Mgmt</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

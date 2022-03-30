@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_pgpage_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="PG DETAILS"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/pg_name_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="PG NAME"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/owner_name_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="OWNER'S NAME"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/contactNumber_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="CONTACT NO."
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/email_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="EMAIL ID"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:background="@color/colorPrimaryDark"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="LOCATION"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/address_line_one_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="ADDRESS"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="LOCALITY" />
+
+                <Spinner
+                    android:id="@+id/locality_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                <EditText
+                    android:id="@+id/state_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="STATE"
+                    android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/city_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="CITY/TOWN"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/pincode_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="PIN CODE"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="NEARBY INSTITUTE" />
+
+                <Spinner
+                    android:id="@+id/institute_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/darker_gray"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="SERVICES"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/layout_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_wifi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="WiFi"
+                        android:textColor="@color/oil" />
+
+                    <CheckBox
+                        android:id="@+id/chk_ac"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="AC"
+                        android:textColor="@color/oil" />
+
+                    <CheckBox
+                        android:id="@+id/chk_breakfast"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Breakfast"
+                        android:textColor="@color/oil" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_lunch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Lunch"
+                        android:textColor="@color/oil" />
+
+                    <CheckBox
+                        android:id="@+id/chk_dinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Dinner"
+                        android:textColor="@color/oil" />
+
+                    <CheckBox
+                        android:id="@+id/chk_parking"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Parking"
+                        android:textColor="@color/oil" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_purifiedwater"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="R.O. Water"
+                        android:textColor="@color/oil" />
+
+                    <CheckBox
+                        android:id="@+id/chk_security"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Security"
+                        android:textColor="@color/oil" />
+
+                    <CheckBox
+                        android:id="@+id/chk_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="TV"
+                        android:textColor="@color/oil" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chk_hotwater"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Hot Water"
+                        android:textColor="@color/oil" />
+
+                    <CheckBox
+                        android:id="@+id/chk_refrigerator"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:padding="10dp"
+                        android:text="Refrigerator"
+                        android:textColor="@color/oil" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="PREFERENCE"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:id="@+id/layout_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radBtn_Individual"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="preferenceRadioButton"
+                            android:padding="10dp"
+                            android:text="Individual"
+                            android:textColor="@color/oil" />
+
+                        <RadioButton
+                            android:id="@+id/radBtn_Sharing"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="preferenceRadioButton"
+                            android:padding="10dp"
+                            android:text="Sharing"
+                            android:textColor="@color/oil" />
+
+                        <RadioButton
+                            android:id="@+id/rad_both_pref"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="preferenceRadioButton"
+                            android:padding="10dp"
+                            android:text="Both"
+                            android:textColor="@color/oil" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif"
+                    android:text="GENDER PREFERENCE"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:id="@+id/layout_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radBtn_male"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="genderPreferenceRadioButton"
+                            android:padding="10dp"
+                            android:text="Male"
+                            android:textColor="@color/oil" />
+
+                        <RadioButton
+                            android:id="@+id/radBtn_female"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="genderPreferenceRadioButton"
+                            android:padding="10dp"
+                            android:text="Female"
+                            android:textColor="@color/oil" />
+
+                        <RadioButton
+                            android:id="@+id/rad_both_gender"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="genderPreferenceRadioButton"
+                            android:padding="10dp"
+                            android:text="Both"
+                            android:textColor="@color/oil" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="FINANCE INFORMATION"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/rent_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="MINIMUM RENT"
+                        android:inputType="number"
+                        android:textColor="#333"
+                        android:textColorHint="#666"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <EditText
+                        android:id="@+id/deposit_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="DEPOSIT AMOUNT"
+                        android:inputType="number"
+                        android:textColor="#333"
+                        android:textColorHint="#666"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#607D8B"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:background="@color/colorPrimaryDark"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="EXTRA FEATURES"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/extra_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/white"
+                    android:gravity="left"
+                    android:hint="MAX(100 chars.)" />
+
+                <ImageView
+                    android:id="@+id/next_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark"
+                    android:src="@drawable/ic_arrow_forward_white_48dp" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

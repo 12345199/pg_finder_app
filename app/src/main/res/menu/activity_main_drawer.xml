@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/nav_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_pg"
+        android:icon="@drawable/nav_pg"
+        android:visible="false"
+        android:title="My PG" />
+    <item
+        android:id="@+id/nav_editPg"
+        android:icon="@drawable/ic_location_city_black_24dp"
+        android:title="Edit My PG(s)" />
+    <item
+        android:id="@+id/nav_account"
+        android:visible="false"
+        android:icon="@drawable/nav_userprofile"
+        android:title="My Profile" />
+
+
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/nav_signout"
+        android:title="Sign Out" />
+
+</menu>
